@@ -50,3 +50,13 @@ hr.thickWhiteUnderline{
     color: white;
     border: 1px solid white;
 }
+
+#titleHomeLink:hover{
+    color: black;
+}
+#titleHomeLink{
+    color: black;
+}
+#titleHomeLink:visited{
+    color: black;
+}
