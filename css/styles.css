@@ -113,7 +113,7 @@ hr.thickWhiteUnderline{
     }
 
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 600px) {
     .headerulverticallines{
         border: 1px solid #0000;
     }
@@ -124,5 +124,10 @@ hr.thickWhiteUnderline{
         height: 1em;
         flex-direction: column;
         justify-content: center;
+        width: auto;
+    }
+    header{
+        justify-content: center;
+        margin: auto;
     }
 }
