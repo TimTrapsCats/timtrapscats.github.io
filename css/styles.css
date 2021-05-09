@@ -91,6 +91,13 @@ hr.thickWhiteUnderline{
     color: black;
 }
 
+/*Home page css*/
+#catimgtext{
+    text-align: center;
+    font-size: 64pt;
+    color: white;
+}
+
 @media screen and (max-width: 1050px) {
     header{
         flex-direction: column;
@@ -129,5 +136,8 @@ hr.thickWhiteUnderline{
     header{
         justify-content: center;
         margin: auto;
+    }
+    #catimgtext{
+        font-size: 32pt;
     }
 }
