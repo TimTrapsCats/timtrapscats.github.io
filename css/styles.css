@@ -2,7 +2,7 @@ body{
     width: 100%;
     border: 0px;
     margin: 0px;
-
+    overflow-x: hidden;
 }
 
 header{
@@ -34,7 +34,7 @@ header a{
     justify-content: space-around;
     /* max-width: 60%; */
     min-width: 22%;
-    width: 100%;
+    width: 100vw;
     margin: auto;
     margin-top: -1em;
     font-family: sans-serif;
@@ -109,6 +109,30 @@ hr.thickWhiteUnderline{
     color: white;
 }
 
+#missionstatementheader{
+    width: 100%;
+    text-align: center;
+    font-size: 42pt;
+}
+
+#missionstatementtext{
+    width: 60%;
+    margin: auto;
+    font-size: 16pt;
+}
+
+#footer{
+    margin-top: 2em;
+    color: #3338;
+}
+#footercopyright{
+    font-family: sans-serif;
+}
+#footerdev{
+    font-family: sans-serif;
+    display: none;
+}
+
 @media screen and (max-width: 1050px) {
     header{
         flex-direction: column;
@@ -129,6 +153,17 @@ hr.thickWhiteUnderline{
         width: 8em;
         margin: 0;
         padding: 0;
+    }
+    #missionstatementheader{
+        width: 100%;
+        text-align: center;
+        font-size: 42pt;
+    }
+    
+    #missionstatementtext{
+        width: 80%;
+        margin: auto;
+        font-size: 16pt;
     }
 
 }
@@ -160,5 +195,30 @@ hr.thickWhiteUnderline{
     }
     #catimgtext{
         font-size: 32pt;
+    }
+    #missionstatementheader{
+        width: 100%;
+        text-align: center;
+        font-size: 18pt;
+    }
+    
+    #missionstatementtext{
+        width: 80%;
+        margin: auto;
+        font-size: 16pt;
+    }
+    #footer{
+        margin-top: 2em;
+        color: #3338;
+    }
+    #footercopyright{
+        font-size: 8pt;
+        margin-bottom: 2em;
+    }
+    #footerdev{
+        font-size: 8pt;
+        width: 0px;
+        overflow: hidden;
+        display: none;
     }
 }
