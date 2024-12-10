@@ -28,7 +28,7 @@ header a{
 #headernav{
     display: flex;
     flex-direction: row;
-    padding: 1em 0 2em 0;
+    padding: 1em 0 1em 0;
     list-style: none;
     justify-content: space-around;
     /* max-width: 60%; */
@@ -62,7 +62,7 @@ header > div > ul li a:hover{
 
 .headerulverticallines{
     border: 1px solid black;
-    height: 0.5em;
+    height: 1em;
     width: 0px;
     margin: 0 .5em 0 .5em;
 }
@@ -170,6 +170,7 @@ hr.thickWhiteUnderline{
     .headerulverticallines{
         border: 0px solid #0000;
         visibility: hidden;
+        height: 0.5em;
     }
     #headernav{
         margin: 0;
