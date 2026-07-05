@@ -8,7 +8,6 @@ https://tailwindcss.com/docs/theme
 
 @theme {
   --color-primary: #cfe8de;
-  --btn-primary: #cfe8de;
   --color-secondary: #b18930;
   --color-accent: #b2dbcb;
   --btn-accent: #b2dbcb;
