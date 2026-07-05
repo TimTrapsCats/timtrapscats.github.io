@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* if you forget or don't know what these are, here is the docs link 
+https://daisyui.com/docs/themes/
+https://tailwindcss.com/docs/theme
+*/
+
+@theme {
+  --color-primary: #cfe8de;
+  --btn-primary: #cfe8de;
+  --color-secondary: #b18930;
+  --color-accent: #b2dbcb;
+  --btn-accent: #b2dbcb;
+  --color-neutral: #203;
+  --color-base-100: #202;
+  --color-base-200: #101;
+  --color-base-300: #080008;
+  --color-info: #0f9;
+  --color-success: #36f;
+  --color-warning: #ff0;
+  --color-error: #f22;
+}

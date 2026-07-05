@@ -1,61 +1,111 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="description" content="Tim Traps Cats: Cat Rescue for Springfield, MO">
-        <meta name="keywords" content="springfield, trapping, stray, cats, cat, rescue, people, service, volunteer, tim, traps, tinytim">
-        <meta name="author" content="chairdev">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet"> 
-        <link href="/css/styles.css" rel="stylesheet">
-        <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  -->
-        <title>Tim Traps Cats: Donation</title>
-    </head>
-    <body style="width: 100%; border: 0px; margin: 0px; ">
-        <header>
-            <h1><a id="titleHomeLink" href="/index.html">TIM TRAPS CATS</a></h2>
-            <div>
-                <ul id="headernav">
-                    <li>
-                        <a href="/index">Home</a>
-                    </li>
-                    <li class="headerulverticallines"></li>
-                    <li>
-                        <a href="/reportacat">Report A Cat</a>
-                    </li>
-                    <li class="headerulverticallines"></li>
-                    <li>
-                        <a href="/barncats">Employ Barn Cats</a>
-                    </li>
-                    <li class="headerulverticallines"></li>
-                    <li>
-                        <a href="/outreach">Outreach</a>
-                    </li>
-                    <li class="headerulverticallines"></li>
-                    <li>
-                        <a href="/volunteerform">Volunteering</a>
-                    </li>
-                    <li class="headerulverticallines"></li>
-                    <li>
-                        <a href="/donate">Donate</a>
-                    </li>
-                </ul>
+<html >
+  <head>
+    <link href="./main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <!--
+  <header>
+    <div class="navbar bg-base-100 shadow-sm">
+      <div class="flex-1">
+        <a class="btn btn-ghost text-xl">TimTrapsCats</a>
+      </div>
+      <div class="flex-none">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Link</a></li>
+          <li>
+            <details>
+              <summary>Parent</summary>
+              <ul class="bg-base-100 rounded-t-none p-2">
+                <li><a>Link 1</a></li>
+                <li><a>Link 2</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+inspirations:
+https://havaheartrescue.org/donate
+https://secure.qgiv.com/for/rescueone
+
+add:
+Thank Mew for considering a gift to Tim Traps Cats! We are so grateful for your support. 
+Cashapp: OzarksTNR 
+Zelle: Timtrapscats@gmail.com
+Join our emailing/ Mailing list for updates!: Form to collect name, email, and address
+
+  --!>
+  <body>
+    <script src="js/header.js"></script>
+    <div class="flex justify-center">
+      <div class="flex justify-around flex-col">
+        <h1 class="text-5xl md:pr-8 md:pl-8 pt-[2em] md:pt-[10vh] pb-8 text-center">Donate!</h1>
+        <multiimagewraptest class="flex justify-center flex-wrap m-auto ml-1 mr-1">
+          <div class=""><img class="p-0 m-0 max-h-40 md:max-h-[26rem] lg:max-h-[32rem] w-auto h-auto" src="media/catpicks/644718957_1619282670199292_5311344707021557924_n.jpg"></div>
+          <div class=""><img class="p-0 m-0 max-h-40 md:max-h-[26rem] lg:max-h-[32rem] w-auto h-auto" src="media/catpicks/06c8ab54-60c7-4194-aa59-e079d56de50f.jpg"></div>
+          <div class=""><img class="p-0 m-0 max-h-40 md:max-h-[26rem] lg:max-h-[32rem] w-auto h-auto" src="media/catpicks/PXL_20260425_184015341.jpg"></div>
+          <div class=""><img class="p-0 m-0 max-h-40 md:max-h-[26rem] lg:max-h-[32rem] w-auto h-auto" src="media/catpicks/538642767_1361450449315850_410668812977983465_n.jpg"></div>
+          <div class=""><img class="p-0 m-0 max-h-40 md:max-h-[26rem] lg:max-h-[32rem] w-auto h-auto" src="media/catpicks/472336854_969128598397929_8078112038460691388_n.jpg"></div>
+        </multiimagewraptest>
+        <div class="text-6xl text-center">Donation Menu</div>
+        <div class="flex justify-center m-auto">
+        <div class="flex justify-around w-full flex-col">
+          <div class="text-xl md:text-3xl">$5 -- Join Team Tim</div>
+          <div class="text-xl md:text-3xl">$10 -- Sponsors one Vaccine</div>
+          <div class="text-xl md:text-3xl">$25 -- Sponsors One Neuter</div>
+          <div class="text-xl md:text-3xl">$50 -- Sponsors One Spay</div>
+          <div class="text-xl md:text-3xl">$100 -- Sponsors one Humane Cat Trap</div>
+          <div class="text-xl md:text-3xl">$200 -- Sponsors a Stop Parvo Clinic</div>
+          <div class="text-xl md:text-3xl">$500 -- Sponsors a large colony of cats</div>
+        </div>
+        </div>
+        <div class="text-center text-4xl p-8 pt-16"> Thank Mew for considering a gift to Tim Traps Cats! We are so grateful for your support. </div>
+        
+        <flexcardholder class="flex justify-around flex-wrap flex-col md:flex-row">
+          <!-- begin cashapp_card --!>
+          <div class="card bg-black shadow-sm card-lg m-2 md:m-8">
+            <div class="card-body justify-between">
+              <h2 class="card-title text-4xl justify-center"><img src="media/svg/cashapp.svg" class="size-[1em]">Cashapp</h2>
+              <figure> <img class="w-[10em]" src="media/img/cashapp_qr.svg"> </figure>
+              <div class="card-actions justify-center align-bottom">
+                <a class="btn btn-primary btn-lg" href="https://cash.app/$OzarksTNR">OzarksTNR</a>
+              </div>
             </div>
-        </header>
-        <div id="body" style="width: 100%; border: 0px; margin: auto; padding-top: 2em; padding-bottom: 2em; font-family: sans-serif; display: flex; flex-direction: column; justify-content: center;">
-            <h2 style="margin: auto;">Use PayPal&trade; to donate to Tim Traps Cats:</h2>
-            <form action="https://www.paypal.com/donate" method="post" target="_top" style="margin: auto;">
-                <input type="hidden" name="hosted_button_id" value="93TQ4XN9CTC5C" />
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+          </div>
+          <!-- end cashapp_card --!>
+          <!-- begin zelle_card --!>
+          <div class="card bg-black shadow-sm card-lg m-2 md:m-8">
+            <div class="card-body justify-between">
+              <h2 class="card-title text-4xl justify-center"><img src="media/img/zelle.png" class="size-[1em]">Zelle:</h2>
+              <figure> <img class="w-[10em]" src="media/img/zelle_qr.png"> </figure>
+              <div class="card-actions justify-center">
+                <a class="btn btn-primary btn-lg" href="https://enroll.zellepay.com/qr-codes?data=eyJuYW1lIjoiVElNIFRSQVBTIENBVFMiLCJ0b2tlbiI6InRpbXRyYXBzY2F0cyJ9">Timtrapscasts@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <!-- end zelle_card --!>
+          <!-- begin paypal_card --!>
+          <div class="card bg-black shadow-sm card-lg m-2 md:m-8">
+            <div class="card-body justify-between">
+              <h2 class="card-title text-4xl justify-center"><img src="media/img/paypal.png" class="size-[1em]">PayPal:</h2>
+              <figure> <img class="w-[10em]" src="media/img/paypal_qr.png"> </figure>
+              <div class="card-actions justify-center">
+        <form action="https://www.paypal.com/donate" method="post" target="_top" style="margin: auto;">
+                <input type="hidden" name="hosted_button_id" value="93TQ4XN9CTC5C">
+                <input type="image" class="btn btn-primary" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate">
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" deh9ffuo9="">
             </form>
-        </div>
-        <div id="footer" >
-            <hr style="width: 80vw; border: 1px solid #8888;">
-            <div style="display: flex; justify-content: space-around;">
-                <div id="footercopyright" >Copyright © 2021 Tim Traps Cats - All Rights Reserved.</div>
-                <div id="footerdev" >built by <a href="zodywoolsey.github.io">chairdev</a></div>
+              </div>
             </div>
-        </div>
-    </body>
+          </div>
+          <!-- end paypal_card --!>
+        </flexcardholder>
+
+
+      </div>
+    </div>
+  </body>
 </html>
