@@ -1,18 +1,27 @@
 @import "tailwindcss";
-@plugin "daisyui";
-
+@plugin "daisyui" {
+   themes: dark --default;
+}
 /* if you forget or don't know what these are, here is the docs link 
 https://daisyui.com/docs/themes/
 https://tailwindcss.com/docs/theme
 */
 
-@theme {
-  --color-primary: #cfe8de;
-  --color-secondary: #b18930;
+/* base colors from business cards:
+ * green_bg = 7ca06e
+ * blue_accent = 86adbc
+*/
+
+@plugin "daisyui/theme" {  name: "mytheme";
+  default: true; /* set as default */
+  prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
+  color-scheme: light; /* color of browser-provided UI */
+  --color-primary: #4379A3;
+  --color-secondary: #3349A3;
   --color-accent: #b2dbcb;
-  --btn-accent: #b2dbcb;
-  --color-neutral: #203;
-  --color-base-100: #202;
+  --color-content: #fff;
+  --color-neutral: #230;
+  --color-base-100: #111410;
   --color-base-200: #101;
   --color-base-300: #080008;
   --color-info: #0f9;
