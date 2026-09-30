@@ -23,6 +23,7 @@
     --text-5xl--line-height: 1;
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
+    --font-weight-bold: 700;
     --radius-2xl: 1rem;
     --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
     --default-transition-duration: 150ms;
@@ -1808,6 +1809,9 @@
   .max-w-\[20rem\] {
     max-width: 20rem;
   }
+  .max-w-\[300px\] {
+    max-width: 300px;
+  }
   .max-w-\[1400px\] {
     max-width: 1400px;
   }
@@ -1989,6 +1993,10 @@
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
+  }
   .text-wrap {
     text-wrap: wrap;
   }
@@ -2072,6 +2080,21 @@
       --btn-fg: var(--color-primary-content);
     }
   }
+  .sm\:max-w-\[300px\] {
+    @media (width >= 40rem) {
+      max-width: 300px;
+    }
+  }
+  .sm\:flex-col {
+    @media (width >= 40rem) {
+      flex-direction: column;
+    }
+  }
+  .sm\:flex-row {
+    @media (width >= 40rem) {
+      flex-direction: row;
+    }
+  }
   .sm\:p-0 {
     @media (width >= 40rem) {
       padding: 0;
@@ -2080,6 +2103,11 @@
   .md\:m-8 {
     @media (width >= 48rem) {
       margin: calc(var(--spacing) * 8);
+    }
+  }
+  .md\:block {
+    @media (width >= 48rem) {
+      display: block;
     }
   }
   .md\:hidden {
@@ -2100,6 +2128,11 @@
   .md\:w-9\/12 {
     @media (width >= 48rem) {
       width: calc(9 / 12 * 100%);
+    }
+  }
+  .md\:max-w-\[500px\] {
+    @media (width >= 48rem) {
+      max-width: 500px;
     }
   }
   .md\:max-w-\[600px\] {
@@ -2152,6 +2185,16 @@
     @media (width >= 48rem) {
       font-size: var(--text-4xl);
       line-height: var(--tw-leading, var(--text-4xl--line-height));
+    }
+  }
+  .lg\:block {
+    @media (width >= 64rem) {
+      display: block;
+    }
+  }
+  .lg\:hidden {
+    @media (width >= 64rem) {
+      display: none;
     }
   }
   .lg\:max-h-\[32rem\] {
@@ -2352,6 +2395,10 @@
   inherits: false;
   initial-value: solid;
 }
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
 @property --tw-shadow {
   syntax: "*";
   inherits: false;
@@ -2488,6 +2535,7 @@
       --tw-skew-x: initial;
       --tw-skew-y: initial;
       --tw-border-style: solid;
+      --tw-font-weight: initial;
       --tw-shadow: 0 0 #0000;
       --tw-shadow-color: initial;
       --tw-shadow-alpha: 100%;
